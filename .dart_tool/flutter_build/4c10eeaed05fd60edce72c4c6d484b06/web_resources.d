@@ -1,0 +1,1 @@
+ build\\web\\favicon.png build\\web\\icons\\Icon-192.png build\\web\\icons\\Icon-512.png build\\web\\index.html build\\web\\manifest.json:  C:\\Android\\myapp\\web\\favicon.png C:\\Android\\myapp\\web\\icons\\Icon-192.png C:\\Android\\myapp\\web\\icons\\Icon-512.png C:\\Android\\myapp\\web\\index.html C:\\Android\\myapp\\web\\manifest.json
