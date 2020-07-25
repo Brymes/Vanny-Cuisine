@@ -10,7 +10,14 @@ class SplashPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Material App Bar'),
       ),
-      body: Expanded(child: Center(child: Image.asset('vanny_logo.jpeg'))),
+      body: Container(
+          constraints: BoxConstraints.expand(),
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage("vanny_logo.jpeg"), fit: BoxFit.cover)),
+          child: TextField(
+            decoration: InputDecoration(fillColor: Colors.grey, filled: true),
+          )),
       floatingActionButton: RaisedButton.icon(
         onPressed: () => context.nav.pushReplacementNamed(HomePage.routeName),
         icon: Icon(Icons.whatshot),

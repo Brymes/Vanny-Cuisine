@@ -9,7 +9,7 @@ import 'package:nessa_kitchen/pages/homepage.dart';
 import 'package:nessa_kitchen/pages/splashPage.dart';
 
 //TODO ADD Space to add improvements and "DISHES" to app
-//TODO ADD SEARCH FUNCTION FOR DISHES
+//TODO ADD SEARCH FUNCTION FOR ::::: Instead add category Functionality
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
