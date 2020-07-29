@@ -1,4 +1,4 @@
-# myapp
+# vanny_cuisine
 
 A new Flutter project.
 

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:nessa_kitchen/pages/meetVanny.dart';
-import 'package:nessa_kitchen/pages/previousOrders.dart';
-import 'package:nessa_kitchen/pages/userProfile.dart';
-import 'package:nessa_kitchen/pages/contactUs.dart';
-import 'package:nessa_kitchen/pages/cart.dart';
-import 'package:nessa_kitchen/pages/dishlist.dart';
-import 'package:nessa_kitchen/pages/homepage.dart';
-import 'package:nessa_kitchen/pages/splashPage.dart';
+import 'package:vanny_cuisine/pages/meetVanny.dart';
+import 'package:vanny_cuisine/pages/previousOrders.dart';
+import 'package:vanny_cuisine/pages/userProfile.dart';
+import 'package:vanny_cuisine/pages/contactUs.dart';
+import 'package:vanny_cuisine/pages/cart.dart';
+import 'package:vanny_cuisine/pages/dishlist.dart';
+import 'package:vanny_cuisine/pages/homepage.dart';
+import 'package:vanny_cuisine/pages/splashPage.dart';
 
 //TODO Domain Name Registration
 
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         MeetVanny.routeName: (context) => MeetVanny(),
       },
       title: 'Material App',
-      home: SplashPage(),
+      // home: SplashPage(),
     );
   }
 }

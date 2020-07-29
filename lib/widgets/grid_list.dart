@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-// TODO  import 'package:nessa_kitchen/pages/dishDetails.dart';
-import 'package:nessa_kitchen/util/const.dart';
-import 'package:nessa_kitchen/widgets/smooth_star_rating.dart';
+// TODO  import 'package:vanny_cuisine/pages/dishDetails.dart';
+import 'package:vanny_cuisine/util/const.dart';
+import 'package:vanny_cuisine/widgets/smooth_star_rating.dart';
 
 class GridProduct extends StatelessWidget {
   final String name;

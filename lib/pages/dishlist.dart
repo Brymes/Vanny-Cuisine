@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nessa_kitchen/widgets/grid_list.dart';
-import 'package:nessa_kitchen/util/foods.dart';
+import 'package:vanny_cuisine/widgets/grid_list.dart';
+import 'package:vanny_cuisine/util/foods.dart';
 
 //TODO ADD SEARCH FUNCTION FOR DISHES
 //TODO THE PLeasure of variety In Your Plate

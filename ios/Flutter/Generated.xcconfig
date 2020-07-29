@@ -1,6 +1,6 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=C:\Android\flutter
-FLUTTER_APPLICATION_PATH=C:\Android\myapp
+FLUTTER_APPLICATION_PATH=C:\Users\Tunde Odebunmi\Repositories\Cuisine_Recovery\vanny_cuisine
 FLUTTER_TARGET=lib\main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build\ios

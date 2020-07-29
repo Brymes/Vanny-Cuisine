@@ -1,6 +1,6 @@
 import 'dart:ui' as ui;
 
-import 'package:nessa_kitchen/main.dart' as entrypoint;
+import 'package:vanny_cuisine/main.dart' as entrypoint;
 
 Future<void> main() async {
   if (true) {

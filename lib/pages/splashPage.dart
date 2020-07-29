@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart' as MobFirebaseAuth;
-import 'package:google_sign_in/google_sign_in.dart';
-import 'package:nessa_kitchen/pages/homepage.dart';
+import 'package:vanny_cuisine/pages/homepage.dart';
 
 class SplashPage extends StatefulWidget {
   static const String routeName = "/";
@@ -12,19 +10,19 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
   //boolAuth Variables
-  MobFirebaseAuth.FirebaseAuth mobAuth = MobFirebaseAuth.FirebaseAuth.instance;
-  final GoogleSignIn mobGoogleSignIn = GoogleSignIn();
-  MobFirebaseAuth.FirebaseUser firebaseUser;
+  // MobFirebaseAuth.FirebaseAuth mobAuth = MobFirebaseAuth.FirebaseAuth.instance;
+  // final GoogleSignIn mobGoogleSignIn = GoogleSignIn();
+  // MobFirebaseAuth.FirebaseUser firebaseUser;
 
   //To Check if User is Logged in
-  Future boolAuth() async {
-    if (mobAuth != null && (await mobGoogleSignIn.isSignedIn())) {
-      firebaseUser = await mobAuth.currentUser();
-    } else {
-      //User is not logged in, take them to the signin Screen
-      Navigator.of(context).pushNamed(HomePage.routeName);
-    }
-  }
+  // Future boolAuth() async {
+  //   if (mobAuth != null && (await mobGoogleSignIn.isSignedIn())) {
+  //     firebaseUser = await mobAuth.currentUser();
+  //   } else {
+  //     //User is not logged in, take them to the signin Screen
+  //     Navigator.of(context).pushNamed(HomePage.routeName);
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +40,7 @@ class _SplashPageState extends State<SplashPage> {
             decoration: InputDecoration(fillColor: Colors.grey, filled: true),
           )),
       floatingActionButton: RaisedButton.icon(
-        onPressed: () => {},
+        onPressed: () => {Navigator.of(context).pushNamed(HomePage.routeName)},
         icon: Icon(Icons.whatshot),
         label: Text("See What's Cooking"),
       ),

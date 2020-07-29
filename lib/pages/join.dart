@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nessa_kitchen/pages/login.dart';
-import 'package:nessa_kitchen/pages/register.dart';
+import 'package:vanny_cuisine/pages/login.dart';
+import 'package:vanny_cuisine/pages/register.dart';
 import 'package:flutter/services.dart';
 
 class JoinApp extends StatefulWidget {
