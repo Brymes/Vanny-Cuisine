@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Constants {
-  static String appName = "Restaurant App UI KIT";
+  static String appName = "Vanny's Cuisine";
 
   //Colors for theme
 //  Color(0xfffcfcff);
@@ -21,7 +21,7 @@ class Constants {
     scaffoldBackgroundColor: lightBG,
     appBarTheme: AppBarTheme(
       textTheme: TextTheme(
-        title: TextStyle(
+        headline6: TextStyle(
           color: darkBG,
           fontSize: 18.0,
           fontWeight: FontWeight.w800,
@@ -42,7 +42,7 @@ class Constants {
     cursorColor: darkAccent,
     appBarTheme: AppBarTheme(
       textTheme: TextTheme(
-        title: TextStyle(
+        headline6: TextStyle(
           color: lightBG,
           fontSize: 18.0,
           fontWeight: FontWeight.w800,

@@ -1,9 +1,31 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart' as MobFirebaseAuth;
+import 'package:google_sign_in/google_sign_in.dart';
 import 'package:nessa_kitchen/pages/homepage.dart';
-import 'package:velocity_x/velocity_x.dart';
 
-class SplashPage extends StatelessWidget {
+class SplashPage extends StatefulWidget {
   static const String routeName = "/";
+
+  @override
+  _SplashPageState createState() => _SplashPageState();
+}
+
+class _SplashPageState extends State<SplashPage> {
+  //boolAuth Variables
+  MobFirebaseAuth.FirebaseAuth mobAuth = MobFirebaseAuth.FirebaseAuth.instance;
+  final GoogleSignIn mobGoogleSignIn = GoogleSignIn();
+  MobFirebaseAuth.FirebaseUser firebaseUser;
+
+  //To Check if User is Logged in
+  Future boolAuth() async {
+    if (mobAuth != null && (await mobGoogleSignIn.isSignedIn())) {
+      firebaseUser = await mobAuth.currentUser();
+    } else {
+      //User is not logged in, take them to the signin Screen
+      Navigator.of(context).pushNamed(HomePage.routeName);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,15 +37,16 @@ class SplashPage extends StatelessWidget {
           decoration: BoxDecoration(
               image: DecorationImage(
                   image: AssetImage("vanny_logo.jpeg"), fit: BoxFit.cover)),
+          //TODO edit to remove this text field
           child: TextField(
             decoration: InputDecoration(fillColor: Colors.grey, filled: true),
           )),
       floatingActionButton: RaisedButton.icon(
-        onPressed: () => context.nav.pushReplacementNamed(HomePage.routeName),
+        onPressed: () => {},
         icon: Icon(Icons.whatshot),
         label: Text("See What's Cooking"),
       ),
-      // floatingActionButtonLocation: ,
+      // /floatingActionButtonLocation: ,
     );
   }
 }

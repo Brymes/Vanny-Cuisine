@@ -8,8 +8,13 @@ import 'package:nessa_kitchen/pages/dishlist.dart';
 import 'package:nessa_kitchen/pages/homepage.dart';
 import 'package:nessa_kitchen/pages/splashPage.dart';
 
+//TODO Domain Name Registration
+
+//TODO Remind nessa that she needs a domain name
 //TODO ADD Space to add improvements and "DISHES" to app
 //TODO ADD SEARCH FUNCTION FOR ::::: Instead add category Functionality
+
+//TODO DO Entire Firebase Setup For IOS
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -28,6 +33,7 @@ class MyApp extends StatelessWidget {
         MeetVanny.routeName: (context) => MeetVanny(),
       },
       title: 'Material App',
+      home: SplashPage(),
     );
   }
 }

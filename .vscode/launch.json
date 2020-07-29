@@ -8,7 +8,11 @@
             "name": "Flutter",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            // "flutterMode": "release",
+            "args": [
+                "--web-port=5000",
+                "--web-enable-expression-evaluation",
+            ]
         }
     ]
 }

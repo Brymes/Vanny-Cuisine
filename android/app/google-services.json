@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "739054239021",
+    "firebase_url": "https://testvanny-bdcfb.firebaseio.com",
+    "project_id": "testvanny-bdcfb",
+    "storage_bucket": "testvanny-bdcfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739054239021:android:efd81ee40d38f3cdfba7a4",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739054239021-rik3k2100uhnmufqo41u090g64shcq16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSUcaUMGIJTv2hk9obJuC4DhqGIdyHzRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739054239021-rik3k2100uhnmufqo41u090g64shcq16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

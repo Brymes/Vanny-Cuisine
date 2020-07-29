@@ -8,14 +8,14 @@ const RESOURCES = {
 "assets/assets/vanny_logo.jpeg": "83635cf5446e662cb2f72b08f1d4ecc0",
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/NOTICES": "0f21df53294fa76c48586cbbdfc0d9cc",
+"assets/NOTICES": "7ee4a24eeb0e2a15b5a5154dcfd5d8b7",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "9e341f6a86e57485d21d8b295bb2473d",
-"/": "9e341f6a86e57485d21d8b295bb2473d",
-"main.dart.js": "cbf0c1180b01f3186be1b87341d537d7",
+"index.html": "c3630c3852ea453398d4e7e973a2b2a8",
+"/": "c3630c3852ea453398d4e7e973a2b2a8",
+"main.dart.js": "0380f68ac579ac4bcf6ccd98952c138c",
 "manifest.json": "93465fa57d4535dc57f667f4eb1b9304"
 };
 
